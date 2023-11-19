@@ -15,7 +15,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.ListView
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.ComposeView
-import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlin.random.Random
 
 class MainActivity : ComponentActivity() {
@@ -52,7 +51,6 @@ class MainActivity : ComponentActivity() {
                 adapter.notifyDataSetChanged()
                 editText.text.clear()
                 editTimesPerDay.text.clear()
-                //LoginScreen()
             }
         }
     }
