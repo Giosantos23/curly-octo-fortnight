@@ -1,5 +1,4 @@
 package com.example.remindme
-
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -58,6 +57,3 @@ class ReminderAdapter(private val context: Context, private val reminderList: Ar
         notifyDataSetChanged()
     }
 }
-
-
-
